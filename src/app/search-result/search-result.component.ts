@@ -10,6 +10,7 @@ export class SearchResultComponent {
   @Input() result!: Result;
 
   constructor() { }
+  
   formatDuration(duration: any): string {
     if (!duration) return 'N/A'; // Return 'N/A' if duration is not available
     const match = duration.match(/PT(\d+H)?(\d+M)?(\d+S)?/);
