@@ -1,0 +1,17 @@
+<div class="p-2 flex items-center justify-center">
+    <div class="m-2">
+        <h2 class="text-sm font-bold text-gray-950 p-2 font-sans">{{ result.title }}</h2>
+        <h2 class="flex justify-end text-sm font-bold text-red-600 font-sans">{{ formatDuration(result.duration) }}</h2>
+        <a href="{{ result.videoUrl }}">
+            <img src="{{ result.thumbnailUrl }}" class="rounded-lg p-4"></a>
+        <p class="text-gray-700 font-bold">{{ result.description}}</p>
+        <div class="flex items-center justify-center">
+            <p class="bg-red-600 rounded-md mx-auto m-2">
+                <a href="{{ result.videoUrl }}"
+                    class="p-2 font-bold font-sans py-1 px-2 text-white text-sm lg:text-md flex items-center justify-center">
+                    Watch now</a>
+            </p>
+        </div>
+    </div>
+
+</div>
