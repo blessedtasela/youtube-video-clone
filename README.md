@@ -1,27 +1,23 @@
-# YoutubeVideoClone
+# Youtube Video Search
+This web application is a real-time YouTube video search engine that allows users to find YouTube videos on the fly, displaying a maximum of 100 results. The project utilizes the YouTube API, and users need to generate their own API key to access the endpoint.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+# Development
+To run the development server, execute ng serve and navigate to http://localhost:4200/. The application will reload automatically when you modify any source files.
 
-## Development server
+# Build
+To build the project, use the command ng build. The build artifacts will be stored in the dist/ directory.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# API Key
+Make sure to create your own YouTube API key before using the application. Insert your API key in the appropriate configuration to access the YouTube API.
 
-## Code scaffolding
+# Getting Started
+Clone the repository.
+Run npm install to install the project dependencies.
+Obtain a YouTube API key by following the instructions here.
+Configure the project to use your API key.
+Run ng serve to start the development server.
+Usage
+Once the development server is running, open the application in your browser and start searching for YouTube videos in real-time.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Note
+This project was bootstrapped with Angular CLI version 16.0.1. For more information about Angular CLI, refer to the Angular CLI Overview and Command Reference page.
